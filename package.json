@@ -1,0 +1,25 @@
+{
+  "name": "videojs-vast",
+  "version": "0.0.0",
+  "description": "videojs-vast ============",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbuchok/videojs-vast.git"
+  },
+  "author": "Tom Buchok <tom@buchok.com> (http://buchok.com/)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/tbuchok/videojs-vast/issues"
+  },
+  "devDependencies": {
+    "wd": "0.0.33",
+    "selenium": "~2.20.0"
+  }
+}
